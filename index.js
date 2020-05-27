@@ -2,7 +2,7 @@
 let main=document.querySelector('main#main');
 main.remove();
 newHeader=document.createelement('h1#victory');
-newHeader.innerHTML=""
+newHeader.innerHTML="is the champion";
     it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
       expect(newHeader.nodeName, "Make sure you create an <h1> with id 'victory'").eql('H1')
     });
