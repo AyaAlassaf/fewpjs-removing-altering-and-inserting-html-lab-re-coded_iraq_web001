@@ -2,7 +2,7 @@
 let main=document.querySelector('main#main');
 main.remove();
 let newHeader=document.createElement('h1#victory');
-let body=document.createElement('body');
-document.body.appendchild(newHeader)
+let body=document.querySelector('body');
+body.appendchild(newHeader);
 newHeader.innerHTML="is the champion";
     
