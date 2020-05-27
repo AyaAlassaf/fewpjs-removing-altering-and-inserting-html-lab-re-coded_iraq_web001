@@ -1,5 +1,6 @@
 // Write your code here!
-let main=document.querySelector('main#main')
+let main=document.querySelector('main#main');
+main.remove();
 describe("index.html", () => {
   describe("after index.js is processed", () => {
     it("no longer has DOM node 'main#main'", () => {
