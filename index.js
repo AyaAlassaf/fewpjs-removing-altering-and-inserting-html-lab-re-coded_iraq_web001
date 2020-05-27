@@ -3,7 +3,7 @@ let main=document.querySelector('main#main');
 main.remove();
 
 let newHeader=document.createElement('h1');
-let body=document.querySelector('body');
-body.appendchild(newHeader);
-newHeader.innerHTML="is the champion";
+document.body.appendchild(newHeader);
+newHeader.id="victory";
+newHeader.innerHTML="Aya is the champion";
     
