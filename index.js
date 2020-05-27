@@ -1,12 +1,8 @@
 // Write your code here!
 let main=document.querySelector('main#main');
 main.remove();
-describe("index.html", () => {
-  describe("after index.js is processed", () => {
-    it("no longer has DOM node 'main#main'", () => {
-      expect(document.querySelector('main'), "Make sure you remove the <main> with id 'main'").to.not.exist
-    });
-
+newHeader=document.createelement('h1#victory');
+newHeader.innerHTML=""
     it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
       expect(newHeader.nodeName, "Make sure you create an <h1> with id 'victory'").eql('H1')
     });
